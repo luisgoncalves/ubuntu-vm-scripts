@@ -19,7 +19,7 @@ sudo service docker start
 echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet/ xenial main" | sudo tee /etc/apt/sources.list.d/dotnetdev.list
 sudo apt-key adv --keyserver apt-mo.trafficmanager.net --recv-keys 417A0893
 sudo apt-get update
-sudo apt-get install -y dotnet-dev-1.0.0-preview2-003121
+sudo apt-get install -y dotnet-dev-1.0.0-preview2-003131
 
 # vscode
 wget https://az764295.vo.msecnd.net/stable/fe7f407b95b7f78405846188259504b34ef72761/vscode-amd64.deb -qO vscode.deb
