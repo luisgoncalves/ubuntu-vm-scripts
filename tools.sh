@@ -22,7 +22,7 @@ sudo apt-get update
 sudo apt-get install -y dotnet-dev-1.0.0-preview2-003131
 
 # vscode
-wget https://az764295.vo.msecnd.net/stable/fe7f407b95b7f78405846188259504b34ef72761/vscode-amd64.deb -qO vscode.deb
+wget https://go.microsoft.com/fwlink/?LinkID=760868 -qO vscode.deb
 sudo dpkg -i vscode.deb
 rm vscode.deb
 code --version
